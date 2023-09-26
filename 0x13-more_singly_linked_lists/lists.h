@@ -4,8 +4,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * struct list_u -self referencial struct for creating nodes for singly list
- * @m: integer data
+ * struct listint_u -self referencial struct for creating nodes for singly list
+ * @n: integer data
  * @next: self referncial pointer to next node
  */
 typedef struct listint_u
