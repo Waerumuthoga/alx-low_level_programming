@@ -1,0 +1,21 @@
+#include "lists.h"
+/**
+ * print_listint -print int data in a singly list
+ * @h: the head pointer to the list
+ * Return: number of nodes in the list
+ */
+size_t print_listint(const listint_t *h)
+{
+	int count = 0;
+
+	if (h != NULL)
+	{
+		while (h)
+		{
+		printf("%d\n", h->n);
+		h = h->next;
+		count++;
+		}
+	}
+	return (count);
+}
