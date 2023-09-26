@@ -4,7 +4,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * struct list_t -self referencial struct for creating nodes for singly list
+ * struct list_u -self referencial struct for creating nodes for singly list
  * @m: integer data
  * @next: self referncial pointer to next node
  */
